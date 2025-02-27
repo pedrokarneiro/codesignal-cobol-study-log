@@ -13,7 +13,7 @@
       * - Display the final value of Item-Stock.
       **************************************************************************
       IDENTIFICATION DIVISION.
-       PROGRAM-ID. NumericVariables.
+       PROGRAM-ID. NumericVariables07.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
       *> DONE: Define Item-Number with 9 digits
