@@ -1,0 +1,82 @@
+# COBOL compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.class
+
+# Intermediate and listing files
+*.lst
+*.map
+*.xref
+*.lib
+*.int
+*.gnt
+*.cpy~
+
+# Debug and log files
+*.dbg
+*.log
+*.trace
+*.trc
+*.dmp
+*.out
+
+# COBOL work and temporary files
+*.wrk
+*.tmp
+*.bak
+*.lst
+
+# COBOL source dependencies (optional)
+*.cpy  # Copybooks, ignore if managed separately
+
+# Micro Focus COBOL specific
+cobol.dir/
+cobol.err/
+*.idy
+*.bnd
+*.lib
+
+# GnuCOBOL specific
+cobcwork/
+*.mod
+*.sym
+
+# IBM Mainframe COBOL specific
+*.cbl_listing
+*.o_listing
+*.p_listing
+*.sysout
+*.sysprint
+*.temp
+
+# RM/COBOL specific
+*.rint
+*.rmod
+*.rmc
+
+# ACUCOBOL specific
+*.acu
+*.oacu
+
+# Virtual environments and dependencies
+venv/
+.env/
+*.envrc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Version control metadata
+*.git/
+*.svn/
+*.hg/
+
+# Backup and OS files
+*.bak
+.DS_Store
+Thumbs.db
