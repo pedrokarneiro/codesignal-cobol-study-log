@@ -14,15 +14,15 @@
       * - Perform the SUBTRACT Operation: Subtract the first variable from the
       *   second variable and store the result.
       * - Display the Subtraction Result: Show the result of the subtraction operation.
-       *************************************************************************
+      *************************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SuperheroCalculations.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
       *> TODO: Declare the variables Power1, Power2, and TotalPower using PIC 9(3), PIC 9(3), and PIC 9(5) respectively
        01 Power1 PIC 9(3).
-       01 Power2 PIC PIC 9(3).
-       01 TotalPower PIC PIC 9(5).
+       01 Power2 PIC 9(3).
+       01 TotalPower PIC 9(5).
        
        PROCEDURE DIVISION.
           *> TODO: Assign values 250 and 400 to Power1 and Power2 respectively
@@ -32,7 +32,7 @@
           ADD Power1 TO Power2 GIVING TotalPower.
           DISPLAY TotalPower.
           *> TODO: Perform the SUBTRACT operation, store the result in TotalPower, and display the result
-          SUBTRACT Power2 FROM Power1 GIVING TotalPower.
+          SUBTRACT Power1 FROM Power2 GIVING TotalPower.
           DISPLAY TotalPower.
           
           STOP RUN.
